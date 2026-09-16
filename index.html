@@ -1,294 +1,957 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Hasnaad Din — Data Analyst & Automation Engineer (VBA Automation & Power Platform)</title>
-  <meta name="description" content="Data Engineer specialising in VBA Automation, Microsoft Power Platform, Power BI, and data migration/ETL." />
-  <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- Fonts & Icons -->
-  <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" />
+    <title>Hasnaad Din | Senior Data Analyst & Excel VBA Automation Engineer</title>
 
-  <!-- Bootstrap & Theme -->
-  <link href="css/styles.css" rel="stylesheet" />
-  <style>
-    .tag { display:inline-block; padding:.25rem .5rem; border-radius:999px; font-size:.75rem; background:#e9ecef; margin:.125rem .25rem; }
-    .metric { font-weight:700; }
-    .resume-section-content p.lead { max-width: 68ch; }
-    .download-btn { position: fixed; right: 1rem; bottom: 1rem; z-index: 999; }
-    @media print { .navbar, .download-btn { display:none !important; } .resume-section { padding-top: 1rem; } }
-  </style>
+    <meta name="description"
+        content="Senior Data Analyst and Excel VBA Automation Engineer with 19+ years of experience in Excel VBA, SQL, data migration, ETL, data analysis and enterprise reporting." />
 
-  <!-- Structured Data for SEO -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Hasnaad Din",
-    "jobTitle": "Data Engineer (VBA Automation & Power Platform)",
-    "email": "mailto:Hasnaad.Din@gmail.com",
-    "address": {"@type":"PostalAddress","addressLocality":"London","addressCountry":"GB"},
-    "sameAs": [
-      "https://www.linkedin.com/in/hasnaaddin",
-      "https://hasnaaddin.github.io"
-    ]
-  }
-  </script>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+
+    <!-- Fonts & Icons -->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js"
+        crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700"
+        rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,700,800"
+        rel="stylesheet" />
+
+    <!-- Existing Bootstrap Theme -->
+    <link href="css/styles.css" rel="stylesheet" />
+
+    <style>
+        .tag {
+            display: inline-block;
+            padding: .3rem .65rem;
+            border-radius: 999px;
+            font-size: .78rem;
+            background: #e9ecef;
+            margin: .15rem .2rem;
+        }
+
+        .resume-section-content p.lead {
+            max-width: 75ch;
+        }
+
+        .career-stat {
+            display: inline-block;
+            margin-right: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .career-stat strong {
+            display: block;
+            font-size: 1.5rem;
+        }
+
+        .project-card {
+            border-left: 4px solid var(--bs-primary);
+            padding: 1rem 1.25rem;
+            margin-bottom: 1.5rem;
+            background: #f8f9fa;
+        }
+
+        .tech-line {
+            font-size: .9rem;
+            color: #6c757d;
+            margin-bottom: 1rem;
+        }
+
+        .download-btn {
+            position: fixed;
+            right: 1rem;
+            bottom: 1rem;
+            z-index: 999;
+        }
+
+        @media print {
+            .navbar,
+            .download-btn {
+                display: none !important;
+            }
+
+            .resume-section {
+                padding-top: 1rem;
+            }
+        }
+    </style>
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Hasnaad Din",
+        "jobTitle": "Senior Data Analyst & Excel VBA Automation Engineer",
+        "email": "mailto:Hasnaad.Din@gmail.com",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "London",
+            "addressCountry": "GB"
+        },
+        "sameAs": [
+            "https://www.linkedin.com/in/hasnaaddin",
+            "https://hasnaaddin.github.io"
+        ]
+    }
+    </script>
 </head>
+
+
 <body id="page-top">
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none">Hasnaad Din</span>
-      <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile2.jpg" alt="Profile photo of Hasnaad Din" /></span>
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav">
-        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
-        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
-        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#certs">Certifications</a></li>
-      </ul>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+
+            <span class="d-block d-lg-none">
+                Hasnaad Din
+            </span>
+
+            <span class="d-none d-lg-block">
+                <img class="img-fluid img-profile rounded-circle mx-auto mb-2"
+                    src="assets/img/profile2.jpg"
+                    alt="Hasnaad Din" />
+            </span>
+
+        </a>
+
+        <button class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarResponsive"
+            aria-controls="navbarResponsive"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+
+            <ul class="navbar-nav">
+
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#certifications">Certifications</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </nav>
+
+
+    <!-- PAGE CONTENT -->
+    <div class="container-fluid p-0">
+
+
+        <!-- ABOUT -->
+        <section class="resume-section" id="about">
+
+            <div class="resume-section-content">
+
+                <h1 class="mb-0">
+                    Hasnaad
+                    <span class="text-primary">Din</span>
+                </h1>
+
+                <div class="subheading mb-3">
+                    London · United Kingdom ·
+                    (+44) 7903 428 466 ·
+                    <a href="mailto:Hasnaad.Din@gmail.com">
+                        Hasnaad.Din@gmail.com
+                    </a>
+                </div>
+
+                <h2 class="h4 mb-3">
+                    Senior Data Analyst & Excel VBA Automation Engineer
+                </h2>
+
+                <p class="lead mb-4">
+
+                    Senior Data Analyst and Excel VBA Automation Engineer with
+                    19+ years of experience delivering data, reporting and
+                    automation solutions across complex enterprise environments.
+
+                    I specialise in Excel VBA, SQL, data migration, ETL,
+                    data validation, data quality and operational reporting,
+                    with recent engagements supporting Visa, Biffa Waste Services,
+                    VodafoneThree and British Airways.
+
+                </p>
+
+                <p class="mb-4">
+
+                    My focus is turning manual, data-intensive business processes
+                    into reliable automated solutions. I have developed VBA
+                    applications, automated data-processing tools, validation and
+                    reconciliation frameworks, dashboards, reporting solutions and
+                    ETL processes across telecoms, aviation, utilities, banking
+                    and insurance environments.
+
+                </p>
+
+
+                <!-- CAREER SNAPSHOT -->
+                <div class="mb-4">
+
+                    <div class="career-stat">
+                        <strong class="text-primary">19+</strong>
+                        Years Experience
+                    </div>
+
+                    <div class="career-stat">
+                        <strong class="text-primary">Excel VBA</strong>
+                        Automation
+                    </div>
+
+                    <div class="career-stat">
+                        <strong class="text-primary">Data</strong>
+                        Analysis & Migration
+                    </div>
+
+                    <div class="career-stat">
+                        <strong class="text-primary">Enterprise</strong>
+                        Delivery
+                    </div>
+
+                </div>
+
+
+                <div class="social-icons">
+
+                    <a class="social-icon"
+                        href="https://www.linkedin.com/in/hasnaaddin"
+                        target="_blank"
+                        aria-label="LinkedIn">
+
+                        <i class="fab fa-linkedin-in"></i>
+
+                    </a>
+
+                    <a class="social-icon"
+                        href="https://github.com/hasnaaddin"
+                        target="_blank"
+                        aria-label="GitHub">
+
+                        <i class="fab fa-github"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <hr class="m-0" />
+
+
+        <!-- EXPERIENCE -->
+        <section class="resume-section" id="experience">
+
+            <div class="resume-section-content">
+
+                <h2 class="mb-5">Professional Experience</h2>
+
+
+                <!-- VISA -->
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+
+                    <div class="flex-grow-1">
+
+                        <h3 class="mb-0">
+                            Excel VBA Consultant
+                        </h3>
+
+                        <div class="subheading mb-1">
+                            Visa · via Fractal Analytics
+                        </div>
+
+                        <div class="tech-line">
+                            Excel VBA · Advanced Excel · Python · Power Query · SQL ·
+                            SharePoint · ETL · Data Validation
+                        </div>
+
+                        <ul>
+
+                            <li>
+                                Delivered Excel VBA automation, data transformation,
+                                reporting and process-improvement solutions supporting
+                                Visa.
+                            </li>
+
+                            <li>
+                                Designed and maintained VBA automation solutions to
+                                streamline business processes, reduce manual effort and
+                                improve operational efficiency.
+                            </li>
+
+                            <li>
+                                Analysed existing workflows, identified automation
+                                opportunities and translated business requirements into
+                                scalable technical solutions.
+                            </li>
+
+                            <li>
+                                Created dynamic dashboards, management reports,
+                                PivotTables, charts and KPI-tracking solutions.
+                            </li>
+
+                            <li>
+                                Implemented validation, reconciliation, audit trails,
+                                logging, exception handling and error-management
+                                processes to improve data accuracy and reliability.
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="flex-shrink-0">
+                        <span class="text-primary">
+                            Jun 2026 – Jul 2026
+                        </span>
+                    </div>
+
+                </div>
+
+
+                <!-- BIFFA -->
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+
+                    <div class="flex-grow-1">
+
+                        <h3 class="mb-0">
+                            Senior Project Data Analyst
+                        </h3>
+
+                        <div class="subheading mb-1">
+                            Biffa Waste Services
+                        </div>
+
+                        <div class="tech-line">
+                            Excel VBA · D365 · Microsoft Fabric · SQL ·
+                            Data Migration · Python
+                        </div>
+
+                        <ul>
+
+                            <li>
+                                Worked within the Data Migration team supporting
+                                Biffa's Mergers & Acquisitions programme.
+                            </li>
+
+                            <li>
+                                Supported migration of operational data from acquired
+                                companies into Biffa systems and D365.
+                            </li>
+
+                            <li>
+                                Performed source-to-target mapping, data validation,
+                                data-quality checks, reconciliation and migration
+                                support across multiple workstreams.
+                            </li>
+
+                            <li>
+                                Developed Excel VBA solutions to transform large
+                                volumes of invoice data into structured import
+                                templates.
+                            </li>
+
+                            <li>
+                                Reduced manual processing and improved migration
+                                accuracy through automated validation and
+                                transformation.
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="flex-shrink-0">
+                        <span class="text-primary">
+                            Oct 2025 – May 2026
+                        </span>
+                    </div>
+
+                </div>
+
+
+                <!-- VODAFONETHREE -->
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+
+                    <div class="flex-grow-1">
+
+                        <h3 class="mb-0">
+                            Data Analyst
+                        </h3>
+
+                        <div class="subheading mb-1">
+                            VodafoneThree
+                        </div>
+
+                        <div class="tech-line">
+                            Data Analysis · SLA Reporting · Incident Analysis ·
+                            Data Validation · Operational Reporting
+                        </div>
+
+                        <ul>
+
+                            <li>
+                                Supported operational reporting, incident analysis,
+                                SLA tracking and service-performance monitoring.
+                            </li>
+
+                            <li>
+                                Analysed incident trends and operational bottlenecks
+                                to provide actionable reporting insights.
+                            </li>
+
+                            <li>
+                                Performed data validation, reporting analysis and
+                                data-quality activities to improve reporting
+                                accuracy and operational visibility.
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="flex-shrink-0">
+                        <span class="text-primary">
+                            Mar 2025 – Sep 2025
+                        </span>
+                    </div>
+
+                </div>
+
+
+                <!-- BA -->
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+
+                    <div class="flex-grow-1">
+
+                        <h3 class="mb-0">
+                            Automation Developer
+                        </h3>
+
+                        <div class="subheading mb-1">
+                            British Airways
+                        </div>
+
+                        <div class="tech-line">
+                            Excel VBA · Advanced Excel · Data Transformation ·
+                            Operational Reporting
+                        </div>
+
+                        <ul>
+
+                            <li>
+                                Developed Excel VBA automation solutions and macros
+                                supporting Payroll, Accommodation and Catering teams.
+                            </li>
+
+                            <li>
+                                Automated reporting and data-processing activities,
+                                reducing manual workloads and improving reporting
+                                accuracy.
+                            </li>
+
+                            <li>
+                                Supported transformation and reporting of large Excel
+                                and CSV datasets across business-critical operational
+                                processes.
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="flex-shrink-0">
+                        <span class="text-primary">
+                            Oct 2024 – Feb 2025
+                        </span>
+                    </div>
+
+                </div>
+
+
+                <!-- BT GLOBAL -->
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+
+                    <div class="flex-grow-1">
+
+                        <h3 class="mb-0">
+                            Automation Developer
+                        </h3>
+
+                        <div class="subheading mb-1">
+                            BT Global · CPS · Wholesale
+                        </div>
+
+                        <div class="tech-line">
+                            Excel VBA · SQL · Qlik · Anaplan · Reporting Automation
+                        </div>
+
+                        <ul>
+
+                            <li>
+                                Supported and enhanced 25+ legacy CGR Scorecards
+                                across BT Global, CPS and Wholesale.
+                            </li>
+
+                            <li>
+                                Developed Excel VBA solutions to automate repetitive
+                                reporting and data-processing activities.
+                            </li>
+
+                            <li>
+                                Performed data validation, troubleshooting,
+                                reporting analysis and production support.
+                            </li>
+
+                            <li>
+                                Worked with large operational datasets using Excel,
+                                SQL, Qlik and Anaplan.
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="flex-shrink-0">
+                        <span class="text-primary">
+                            Apr 2019 – Sep 2024
+                        </span>
+                    </div>
+
+                </div>
+
+
+                <!-- BT PHONEBOOK -->
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+
+                    <div class="flex-grow-1">
+
+                        <h3 class="mb-0">
+                            Automation Developer
+                        </h3>
+
+                        <div class="subheading mb-1">
+                            BT
+                        </div>
+
+                        <div class="tech-line">
+                            Excel VBA · SQL Server · Data Validation · Automation
+                        </div>
+
+                        <ul>
+
+                            <li>
+                                Developed and maintained an end-to-end Excel VBA
+                                application for the BT PhoneBook team.
+                            </li>
+
+                            <li>
+                                Automated order creation and publication processes
+                                for future PhoneBook releases.
+                            </li>
+
+                            <li>
+                                Integrated Excel VBA with SQL Server for data
+                                management, validation and order processing.
+                            </li>
+
+                            <li>
+                                Enhanced VBA-based reporting and automation tools to
+                                improve operational efficiency and data accuracy.
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="flex-shrink-0">
+                        <span class="text-primary">
+                            May 2017 – Jan 2019
+                        </span>
+                    </div>
+
+                </div>
+
+
+                <!-- EARLIER CAREER -->
+                <div>
+
+                    <h3 class="h4 mb-3">
+                        Earlier Career
+                    </h3>
+
+                    <ul>
+
+                        <li>
+                            BT Openreach — PMO (2012–2017)
+                        </li>
+
+                        <li>
+                            Deutsche Bank — Incident Manager Operator (2011–2012)
+                        </li>
+
+                        <li>
+                            PwC — Lead Transition Manager / Developer (2010–2011)
+                        </li>
+
+                        <li>
+                            TCS Internal — Assistant Bid Manager (2009–2010)
+                        </li>
+
+                        <li>
+                            Legal & General — PMO (2008–2009)
+                        </li>
+
+                        <li>
+                            AXA UK Life — Tester / VBA Developer (2008)
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <hr class="m-0" />
+
+
+        <!-- SKILLS -->
+        <section class="resume-section" id="skills">
+
+            <div class="resume-section-content">
+
+                <h2 class="mb-5">Technical Skills</h2>
+
+
+                <div class="subheading mb-2">
+                    Excel & Automation
+                </div>
+
+                <p>
+                    <span class="tag">Excel VBA</span>
+                    <span class="tag">Advanced Excel</span>
+                    <span class="tag">Macros</span>
+                    <span class="tag">UserForms</span>
+                    <span class="tag">Power Query</span>
+                    <span class="tag">PivotTables</span>
+                    <span class="tag">Automated Reporting</span>
+                    <span class="tag">Workflow Automation</span>
+                </p>
+
+
+                <div class="subheading mb-2 mt-4">
+                    Data Migration & ETL
+                </div>
+
+                <p>
+                    <span class="tag">Data Migration</span>
+                    <span class="tag">ETL</span>
+                    <span class="tag">Data Validation</span>
+                    <span class="tag">Data Cleansing</span>
+                    <span class="tag">Data Quality</span>
+                    <span class="tag">Source-to-Target Mapping</span>
+                    <span class="tag">Reconciliation</span>
+                    <span class="tag">Azure Data Factory</span>
+                    <span class="tag">D365</span>
+                    <span class="tag">Microsoft Fabric</span>
+                </p>
+
+
+                <div class="subheading mb-2 mt-4">
+                    Data & Analytics
+                </div>
+
+                <p>
+                    <span class="tag">Data Analysis</span>
+                    <span class="tag">SQL</span>
+                    <span class="tag">Python</span>
+                    <span class="tag">Pandas</span>
+                    <span class="tag">NumPy</span>
+                    <span class="tag">SLA Reporting</span>
+                    <span class="tag">KPI Reporting</span>
+                    <span class="tag">Operational Reporting</span>
+                    <span class="tag">Streamlit</span>
+                </p>
+
+
+                <div class="subheading mb-2 mt-4">
+                    Databases & Development
+                </div>
+
+                <p>
+                    <span class="tag">SQL Server</span>
+                    <span class="tag">MySQL</span>
+                    <span class="tag">SQLite</span>
+                    <span class="tag">MS Access</span>
+                    <span class="tag">REST APIs</span>
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">TypeScript</span>
+                    <span class="tag">.NET</span>
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">XML</span>
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <hr class="m-0" />
+
+
+        <!-- PROJECTS -->
+        <section class="resume-section" id="projects">
+
+            <div class="resume-section-content">
+
+                <h2 class="mb-3">
+                    Automation Portfolio
+                </h2>
+
+                <p class="lead mb-5">
+                    Selected examples demonstrating Excel VBA automation,
+                    data processing, reporting and Office automation.
+                </p>
+
+
+                <!-- PROJECT 1 -->
+                <div class="project-card">
+
+                    <h3 class="h4 mb-2">
+                        Excel → Word Automated Proposal Generator
+                    </h3>
+
+                    <p>
+                        An Office automation solution where Excel acts as the
+                        calculation and data-entry engine and VBA automatically
+                        populates a professional Microsoft Word proposal.
+                    </p>
+
+                    <p>
+                        The solution demonstrates automated calculations,
+                        dynamic placeholder replacement and Excel-to-Word
+                        integration to eliminate repetitive document preparation.
+                    </p>
+
+                    <div>
+                        <span class="tag">Excel VBA</span>
+                        <span class="tag">Microsoft Excel</span>
+                        <span class="tag">Microsoft Word</span>
+                        <span class="tag">Office Automation</span>
+                    </div>
+
+                    <p class="mt-3 mb-0">
+                        <strong>Source code and demonstration files coming soon.</strong>
+                    </p>
+
+                </div>
+
+
+                <!-- FUTURE PROJECT -->
+                <div class="project-card">
+
+                    <h3 class="h4 mb-2">
+                        Data Migration & Validation Automation
+                    </h3>
+
+                    <p>
+                        Demonstration project showcasing automated data cleansing,
+                        transformation, validation and reconciliation using Excel VBA.
+                    </p>
+
+                    <div>
+                        <span class="tag">Excel VBA</span>
+                        <span class="tag">Data Migration</span>
+                        <span class="tag">ETL</span>
+                        <span class="tag">Data Validation</span>
+                    </div>
+
+                    <p class="mt-3 mb-0">
+                        <strong>Portfolio project in development.</strong>
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <hr class="m-0" />
+
+
+        <!-- EDUCATION -->
+        <section class="resume-section" id="education">
+
+            <div class="resume-section-content">
+
+                <h2 class="mb-5">
+                    Education
+                </h2>
+
+
+                <div class="mb-4">
+
+                    <h3 class="mb-0">
+                        City, University of London
+                    </h3>
+
+                    <div class="subheading mb-1">
+                        MSc Information Science
+                    </div>
+
+                    <div class="text-muted">
+                        Accredited by the British Computer Society
+                    </div>
+
+                </div>
+
+
+                <div>
+
+                    <h3 class="mb-0">
+                        City, University of London
+                    </h3>
+
+                    <div class="subheading mb-1">
+                        BSc Computer Science
+                    </div>
+
+                    <div class="text-muted">
+                        Accredited by the British Computer Society
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <hr class="m-0" />
+
+
+        <!-- CERTIFICATIONS -->
+        <section class="resume-section" id="certifications">
+
+            <div class="resume-section-content">
+
+                <h2 class="mb-5">
+                    Certifications
+                </h2>
+
+                <ul class="fa-ul mb-0">
+
+                    <li class="mb-2">
+                        <span class="fa-li">
+                            <i class="fas fa-certificate text-warning"></i>
+                        </span>
+                        ITIL Foundation — 2025
+                    </li>
+
+                    <li class="mb-2">
+                        <span class="fa-li">
+                            <i class="fas fa-certificate text-warning"></i>
+                        </span>
+                        Cyber Security Foundation — 2025
+                    </li>
+
+                    <li class="mb-2">
+                        <span class="fa-li">
+                            <i class="fas fa-certificate text-warning"></i>
+                        </span>
+                        Secuware Cybersecurity Awareness — 2025
+                    </li>
+
+                    <li class="mb-2">
+                        <span class="fa-li">
+                            <i class="fas fa-certificate text-warning"></i>
+                        </span>
+                        AI / Generative AI Architect — Introduction to Gen AI — 2024
+                    </li>
+
+                    <li class="mb-2">
+                        <span class="fa-li">
+                            <i class="fas fa-certificate text-warning"></i>
+                        </span>
+                        Generative AI Foundation — 2024
+                    </li>
+
+                    <li class="mb-2">
+                        <span class="fa-li">
+                            <i class="fas fa-certificate text-warning"></i>
+                        </span>
+                        Domain Advisory Foundation — Generative AI — 2024
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </section>
+
+
     </div>
-  </nav>
 
-  <!-- Page Content -->
-  <div class="container-fluid p-0">
 
-    <!-- About -->
-    <section class="resume-section" id="about">
-      <div class="resume-section-content">
-        <h1 class="mb-0">Hasnaad <span class="text-primary">Din</span></h1>
-        <div class="subheading mb-3">London · United Kingdom · (+44) 7903 428 466 · <a href="mailto:Hasnaad.Din@gmail.com">Hasnaad.Din@gmail.com</a></div>
-        <h2 class="h4 mb-3">Data Engineer (VBA Automation & Power Platform)</h2>
-        <p class="lead mb-4">
-          Seasoned IT professional (18+ years, TCS since 2007) specialising in enterprise-grade automation and analytics using Microsoft Power Platform (Power Apps, Power Automate, Power BI) and Excel VBA. Since 2017, I have delivered major programmes for VodafoneThree, British Airways, and BT—transforming manual processes into scalable, data-driven solutions. I bridge legacy systems with modern low-code platforms to deliver measurable outcomes: faster decision-making, reduced manual effort, stronger compliance, and improved customer/employee satisfaction.
-        </p>
-        <div class="social-icons">
-          <a class="social-icon" href="https://www.linkedin.com/in/hasnaaddin" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-          <a class="social-icon" href="https://hasnaaddin.github.io" aria-label="GitHub"><i class="fab fa-github"></i></a>
-        </div>
-      </div>
-    </section>
+    <!-- PRINT / PDF -->
+    <a class="btn btn-primary download-btn"
+        href="#"
+        onclick="window.print(); return false;"
+        title="Print or Save as PDF">
 
-    <hr class="m-0" />
+        <i class="fas fa-file-pdf"></i>
+        Save as PDF
 
-    <!-- Experience -->
-    <section class="resume-section" id="experience">
-      <div class="resume-section-content">
-        <h2 class="mb-5">Experience</h2>
+    </a>
 
-        <!-- VodafoneThree -->
-        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="flex-grow-1">
-            <h3 class="mb-0">Data Analyst & Automation Engineer</h3>
-            <div class="subheading mb-2">VodafoneThree</div>
-            <div class="text-muted mb-2">Incident Data Analyst & GenAI Automation Developer</div>
-            <ul>
-              <li>Designed and developed Power BI dashboards to track MTTR trends, incident volumes, SLA performance, and resolution bottlenecks, giving stakeholders real-time visibility.</li>
-              <li>Built data models and DAX measures for KPIs (SLA compliance %, backlog trends, average resolution time) to drive decisions.</li>
-              <li>Automated ingestion and transformation with Power Query, cutting manual reporting effort by ~70% and improving data quality.</li>
-              <li>Implemented Row-Level Security (RLS) and managed Power BI Service workspaces for secure, role-based access.</li>
-              <li>Optimised large datasets with query folding, aggregations, and scheduled refreshes for reliable performance.</li>
-            </ul>
-            <div><span class="tag">Power BI</span><span class="tag">DAX</span><span class="tag">Power Query</span><span class="tag">RLS</span><span class="tag">Python</span><span class="tag">LangChain</span><span class="tag">Streamlit</span></div>
-          </div>
-          <div class="flex-shrink-0"><span class="text-primary">Mar 2025 – Present</span></div>
-        </div>
 
-        <!-- British Airways -->
-        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="flex-grow-1">
-            <h3 class="mb-0">Automation Developer</h3>
-            <div class="subheading mb-2">British Airways</div>
-            <div class="text-muted mb-2">Excel VBA Developer</div>
-            <ul>
-              <li>Built fail-safe VBA macros for Payroll, Accommodation, and Catering to ensure operational continuity during system outages.</li>
-              <li>Combined VBA with Power Query to import/transform large Excel/CSV datasets, enhancing reporting and decision-making.</li>
-              <li>Developed a Power Apps Canvas app for mobile crew satisfaction surveys; stored data in SharePoint/Excel.</li>
-              <li>Created Power Automate flows to route responses to Crew Leaders with notifications and secure storage in SharePoint Online.</li>
-              <li>Produced a Power BI dashboard to track Crew Satisfaction Index with real-time insights and trends.</li>
-            </ul>
-            <div><span class="tag">Excel VBA</span><span class="tag">Power Apps</span><span class="tag">Power Automate</span><span class="tag">Power BI</span><span class="tag">SharePoint</span></div>
-          </div>
-          <div class="flex-shrink-0"><span class="text-primary">Oct 2024 – Feb 2025</span></div>
-        </div>
+    <!-- SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
 
-        <!-- BT Global, CPS, Wholesale -->
-        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="flex-grow-1">
-            <h3 class="mb-0">Automation Developer</h3>
-            <div class="subheading mb-2">BT Global, CPS, Wholesale</div>
-            <div class="text-muted mb-2">Excel VBA Developer</div>
-            <ul>
-              <li>Supported 25+ Legacy CGR Scorecards; enhanced Excel tools with VBA and ensured seamless daily operations.</li>
-              <li>Automated repetitive tasks in VBA to boost efficiency across the CGR domain.</li>
-              <li>Built a Power Apps Canvas app for end-of-day tool stock capture (photos, location, confirmation) stored in Dataverse.</li>
-              <li>Designed Power Automate flows for audit notifications and stock submissions, improving escalation and record-keeping.</li>
-              <li>Created a Model-Driven App in Dataverse for managers to monitor audits/stock records in real time.</li>
-            </ul>
-            <div><span class="tag">Excel VBA</span><span class="tag">Power Apps (Canvas/Model-Driven)</span><span class="tag">Dataverse</span><span class="tag">Power Automate</span></div>
-          </div>
-          <div class="flex-shrink-0"><span class="text-primary">Apr 2019 – Sep 2024</span></div>
-        </div>
-
-        <!-- BT PhoneBook -->
-        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="flex-grow-1">
-            <h3 class="mb-0">Automation Developer</h3>
-            <div class="subheading mb-2">BT</div>
-            <div class="text-muted mb-2">Excel VBA Developer</div>
-            <ul>
-              <li>Developed and maintained an end-to-end Excel VBA application for the BT PhoneBook team to streamline order creation.</li>
-              <li>Integrated with SQL Server for efficient data management and order processing.</li>
-              <li>Built a Power Apps Canvas app for regional ad submissions (images, text, pricing) writing directly to SQL Server.</li>
-              <li>Designed Power Automate validation/notification flows to reduce turnaround time and standardise quality.</li>
-              <li>Created a Power BI dashboard on SQL Server to track ad sales by region/category/cycle for real-time insights.</li>
-            </ul>
-            <div><span class="tag">Excel VBA</span><span class="tag">SQL Server</span><span class="tag">Power Apps</span><span class="tag">Power Automate</span><span class="tag">Power BI</span></div>
-          </div>
-          <div class="flex-shrink-0"><span class="text-primary">May 2017 – Jan 2019</span></div>
-        </div>
-
-        <!-- Earlier roles -->
-        <div class="mb-2">
-          <h3 class="h5">Earlier Roles</h3>
-          <ul class="mb-0">
-            <li>BT Openreach — PMO (2012–2017)</li>
-            <li>Deutsche Bank — Incident Manager Operator (2011–2012)</li>
-            <li>PwC — Lead Transition Manager / Developer (2010–2011)</li>
-            <li>TCS Internal — Assistant Bid Manager (2009–2010)</li>
-            <li>Legal & General — PMO (2008–2009)</li>
-            <li>AXA UK Life — Tester / VBA Developer (2008)</li>
-          </ul>
-        </div>
-
-      </div>
-    </section>
-
-    <hr class="m-0" />
-
-    <!-- Projects -->
-    <section class="resume-section" id="projects">
-      <div class="resume-section-content">
-        <h2 class="mb-5">Selected Projects</h2>
-        <div class="mb-4">
-          <h3 class="h5 mb-1">Incident Analytics with RLS — VodafoneThree</h3>
-          <p class="mb-1">Enterprise Power BI model with Row-Level Security enabling role-based insights on SLA, MTTR, and incident backlog.</p>
-          <div><span class="tag">Power BI</span><span class="tag">DAX</span><span class="tag">RLS</span><span class="tag">Data Modelling</span></div>
-        </div>
-        <div class="mb-4">
-          <h3 class="h5 mb-1">Crew Satisfaction App — British Airways</h3>
-          <p class="mb-1">Power Apps + Power Automate + Power BI solution for mobile surveys, automated routing, and real-time feedback analytics.</p>
-          <div><span class="tag">Power Apps</span><span class="tag">Power Automate</span><span class="tag">SharePoint</span><span class="tag">Power BI</span></div>
-        </div>
-        <div class="mb-4">
-          <h3 class="h5 mb-1">CGR Scorecards Automation — BT</h3>
-          <p class="mb-1">VBA automations and Dataverse-backed apps to streamline legacy scorecards, audits, and stock tracking.</p>
-          <div><span class="tag">VBA</span><span class="tag">Dataverse</span><span class="tag">Power Apps</span></div>
-        </div>
-      </div>
-    </section>
-
-    <hr class="m-0" />
-
-    <!-- Skills -->
-    <section class="resume-section" id="skills">
-      <div class="resume-section-content">
-        <h2 class="mb-5">Skills</h2>
-
-        <div class="subheading mb-2">Programming & Scripting</div>
-        <p>Python, JavaScript, TypeScript, VBA, .NET, SQL, HTML, CSS, XML</p>
-
-        <div class="subheading mb-2">AI & Automation Tools</div>
-        <p>LangChain, UiPath (RPA), Power Platform (Power Apps, Power Automate, Power Query, Power BI), Playwright, Azure Data Factory</p>
-
-        <div class="subheading mb-2">Data & Analytics</div>
-        <p>ELT processes, Data Analysis, Power BI, Python (Pandas, NumPy), MS Excel (Advanced Formulas, Macros), Streamlit</p>
-
-        <div class="subheading mb-2">Databases & APIs</div>
-        <p>SQL Server, MySQL, SQLite, RESTful Web Services, MS Access</p>
-
-        <div class="subheading mb-2">Client List & Engagements</div>
-        <p class="mb-2">
-          VodafoneThree — Data Analyst (Power BI, Faster MTTR) · British Airways — Automation Developer (Power Apps, VBA – Crew Insights) ·
-          BT — Developer / Reports Analyst (Power Apps, SQL, VBA – Audits) · Deutsche Bank — Incident Manager (Remedy – Critical Resilience) ·
-          PwC — Application Support (Visual Studio – App Migration) · AXA — PMO/Tester (VBA – Policy Renewals / Risk)
-        </p>
-      </div>
-    </section>
-
-    <hr class="m-0" />
-
-    <!-- Education -->
-    <section class="resume-section" id="education">
-      <div class="resume-section-content">
-        <h2 class="mb-5">Education</h2>
-        <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
-          <div class="flex-grow-1">
-            <h3 class="mb-0">City, University of London</h3>
-            <div class="subheading mb-1">MSc Information Science</div>
-            <div class="text-muted">Accredited by the British Computer Society</div>
-          </div>
-          <div class="flex-shrink-0"><span class="text-primary">—</span></div>
-        </div>
-        <div class="d-flex flex-column flex-md-row justify-content-between">
-          <div class="flex-grow-1">
-            <h3 class="mb-0">City, University of London</h3>
-            <div class="subheading mb-1">BSc Computer Science</div>
-            <div class="text-muted">Accredited by the British Computer Society</div>
-          </div>
-          <div class="flex-shrink-0"><span class="text-primary">—</span></div>
-        </div>
-      </div>
-    </section>
-
-    <hr class="m-0" />
-
-    <!-- Certifications -->
-    <section class="resume-section" id="certs">
-  <div class="resume-section-content">
-    <h2 class="mb-5">Certifications</h2>
-    <ul class="fa-ul mb-0">
-
-      <li><span class="fa-li"><i class="fas fa-certificate text-warning"></i></span> RiO: Awareness of RiO Focus Areas Foundation — Jun 2025</li>
-      <li><span class="fa-li"><i class="fas fa-certificate text-warning"></i></span> ITIL Foundation Certification — Jun 2025</li>
-      <li><span class="fa-li"><i class="fas fa-certificate text-warning"></i></span> Secuware - Cybersecurity Awareness Curriculum — May 2025</li>
-      <li><span class="fa-li"><i class="fas fa-certificate text-warning"></i></span> Cyber Security Foundation — May 2025</li>
-      <li><span class="fa-li"><i class="fas fa-certificate text-warning"></i></span> AI-Gen AI Architect: Introduction to Gen AI — Jun 2024</li>
-      <li><span class="fa-li"><i class="fas fa-certificate text-warning"></i></span> Generative AI Foundation Curriculum — Mar 2024</li>
-      <li><span class="fa-li"><i class="fas fa-certificate text-warning"></i></span> Domain Advisory: Foundation Generative AI — Mar 2024</li>
-      <li><span class="fa-li"><i class="fas fa-certificate text-warning"></i></span> Growth & Transformation: Awareness E0 Proficiency — Jan 2024</li>
-      <li><span class="fa-li"><i class="fas fa-certificate text-warning"></i></span> Media Measurement Design Thinking Curriculum — Jan 2023</li>
-      <li><span class="fa-li"><i class="fas fa-certificate text-warning"></i></span> Initiative & Proactiveness Foundation — Oct 2021</li>
-      <li><span class="fa-li"><i class="fas fa-certificate text-warning"></i></span> UK Managerial HR & Employment Law Compliance Certification — Jul 2021</li>
-      <li><span class="fa-li"><i class="fas fa-certificate text-warning"></i></span> BDA: Domain Advisory Foundation CMI Information Services E1 — Nov 2020</li>
-      <li><span class="fa-li"><i class="fas fa-certificate text-warning"></i></span> BDA Initiate: Information Services Overview — Nov 2020</li>
-      <li><span class="fa-li"><i class="fas fa-certificate text-warning"></i></span> BDA: CMI Information Services HealthCare E1 — Nov 2020</li>
-      <li><span class="fa-li"><i class="fas fa-certificate text-warning\"></i></span> DevOps Intermediate — Jul 2019</li>
-      <li><span class="fa-li"><i class="fas fa-certificate text-warning\"></i></span> Agile Way of Working Foundation — Sep 2018</li>
-      <li><span class="fa-li"><i class="fas fa-certificate text-warning\"></i></span> Digital: Ninja Competency — Sep 2018</li>
-      <li><span class="fa-li"><i class="fas fa-certificate text-warning\"></i></span> Cloud Computing (General) Foundation — Apr 2018</li>
-      <li><span class="fa-li"><i class="fas fa-certificate text-warning\"></i></span> ITIL 2011 WBTs - PM E1 (Archived) — May 2017</li>
-      <li><span class="fa-li"><i class="fas fa-certificate text-warning\"></i></span> Service Management (ITIL) (Archived) — May 2017</li>
-
-    </ul>
-  </div>
-</section>
-
-  </div>
-
-  <!-- Print / Save to PDF -->
-  <a class="btn btn-primary download-btn" href="#" onclick="window.print(); return false;" title="Print or Save as PDF"><i class="fas fa-file-pdf"></i> Save as PDF</a>
-
-  <!-- Scripts -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="js/scripts.js"></script>
 </body>
+
 </html>
